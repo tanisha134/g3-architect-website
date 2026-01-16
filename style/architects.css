@@ -205,6 +205,20 @@ main > section{
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+
+/* footer works */
+    .last-part{
+        background-color: rgba(255, 244, 231, 1);
+        border-radius: 8px;
+        margin: 216px 240px 216px 240px;
+        padding: 0px 20px;
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navbar,
